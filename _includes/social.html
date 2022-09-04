@@ -13,6 +13,9 @@
             {%- if site.research_gate_profile -%}
             <a href="https://www.researchgate.net/profile/{{site.research_gate_profile}}/" title="ResearchGate"><i class="ai ai-researchgate"></i></a>
             {% endif %}
+            {%- if site.slideshare_username -%}
+            <a href="https://www.slideshare.net/{{ site.slideshare_username }}" title="Slideshare"><i class="fab fa-slideshare"></i></i></a>
+            {% endif %}
             {%- if site.github_username -%}
             <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fab fa-github"></i></a>
             {% endif %}

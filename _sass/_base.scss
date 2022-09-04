@@ -256,7 +256,7 @@ progress {
   background-color: transparent;
 
   /* Progress bar value for IE10+ */
-  color: $theme-color;
+  color: var(--global-theme-color);
 }
 
 progress::-webkit-progress-bar {
@@ -264,11 +264,11 @@ progress::-webkit-progress-bar {
 }
 
 progress::-webkit-progress-value {
-  background-color: $theme-color;
+  background-color: var(--global-theme-color);
 }
 
 progress::-moz-progress-bar {
-  background-color: $theme-color;
+  background-color: var(--global-theme-color);
 }
 
 .progress-container {
@@ -276,7 +276,7 @@ progress::-moz-progress-bar {
 }
 
 .progress-bar {
-  background-color: $theme-color;
+  background-color: var(--global-theme-color);
 }
 
 // Social (bottom)
@@ -436,6 +436,16 @@ footer.sticky-bottom {
   }
 }
 
+// news
+
+.news {
+  margin-top: 2rem;
+  .badge{
+    min-width: 5.2rem;
+    color: var(--global-card-bg-color) !important;
+    background-color: var(--global-theme-color) !important;
+  }
+}
 
 // Distill
 
@@ -522,7 +532,6 @@ footer.sticky-bottom {
     list-style: none;
     padding: 0;
     margin-top: 0;
-    font-size: 0.9rem;
     li {
       margin-bottom: 1rem;
       .preview {
@@ -531,6 +540,8 @@ footer.sticky-bottom {
         max-width: 200px;
       }
       .abbr {
+        font-size: 0.9rem;
+        text-align: center;
         height: 2rem;
         margin-bottom: 0.5rem;
         abbr {
@@ -545,17 +556,19 @@ footer.sticky-bottom {
             }
           }
         }
-        .award {
-          color: var(--global-theme-color) !important;
-          border: 1px solid var(--global-theme-color);
-        }
         .badge {
+          min-width: 2.2rem;
           color: var(--global-card-bg-color) !important;
-          background-color: grey !important;
+          background-color: var(--global-theme-color) !important;
         }
+      }
+      .award {
+        color: $orange-color !important;
+        font-weight: bolder;
       }
       .title {
         font-weight: bolder;
+        color: var(--global-theme-color) !important;
       }
       .author {
         a {
@@ -595,7 +608,7 @@ footer.sticky-bottom {
         }
         a.badge {
           color: var(--global-card-bg-color) !important;
-          background-color: var(--global-theme-color) !important;
+          background-color: var(--global-distill-app-color) !important;
         }
       }
       .hidden {
@@ -707,6 +720,6 @@ html.transition *:after {
   nobr > em {
     font-weight: bold;
     font-style: normal;
-    color: $theme-color;
+    color: var(--global-theme-color);
 }
 }
