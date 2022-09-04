@@ -243,6 +243,42 @@ blockquote {
   }
 }
 
+progress {
+  /* Reset the appearance */
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+
+  /* Get rid of the default border in Firefox/Opera. */
+  border: none;
+
+  /* Progress bar container for Firefox/IE10+ */
+  background-color: transparent;
+
+  /* Progress bar value for IE10+ */
+  color: $theme-color;
+}
+
+progress::-webkit-progress-bar {
+  background-color: transparent;
+}
+
+progress::-webkit-progress-value {
+  background-color: $theme-color;
+}
+
+progress::-moz-progress-bar {
+  background-color: $theme-color;
+}
+
+.progress-container {
+  background-color: transparent;
+}
+
+.progress-bar {
+  background-color: $theme-color;
+}
+
 // Social (bottom)
 
 .social {
@@ -271,10 +307,11 @@ blockquote {
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
+  text-align: center;
   .container {
     color: var(--global-footer-text-color);
-    padding-top: 9px;
-    padding-bottom: 8px;
+    padding-top: 3px;
+    padding-bottom: 2px;
   }
   a {
     color: var(--global-footer-link-color);
@@ -287,8 +324,8 @@ footer.fixed-bottom {
 
 footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   font-size: 0.9rem;
 }
 
@@ -473,6 +510,7 @@ footer.sticky-bottom {
     }
   }
   h2.year {
+    font-size: 1.5rem;
     color: var(--global-divider-color);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
@@ -484,7 +522,7 @@ footer.sticky-bottom {
     list-style: none;
     padding: 0;
     margin-top: 0;
-
+    font-size: 0.9rem;
     li {
       margin-bottom: 1rem;
       .preview {
@@ -498,8 +536,8 @@ footer.sticky-bottom {
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
+          // padding-left: 1rem;
+          // padding-right: 1rem;
           a {
             color: white;
             &:hover {
@@ -511,13 +549,18 @@ footer.sticky-bottom {
           color: var(--global-theme-color) !important;
           border: 1px solid var(--global-theme-color);
         }
+        .badge {
+          color: var(--global-card-bg-color) !important;
+          background-color: grey !important;
+        }
       }
       .title {
         font-weight: bolder;
       }
       .author {
         a {
-          border-bottom: 1px dashed var(--global-theme-color);
+          color: var(--global-theme-color) !important;
+          border-bottom: 1px dashed;
           &:hover {
               border-bottom-style: solid;
               text-decoration: none;
@@ -541,14 +584,18 @@ footer.sticky-bottom {
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
+          padding-left: 0.25rem;
+          padding-right: 0.25rem;
+          padding-top: 0.01rem;
+          padding-bottom: 0.01rem;
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
           }
+        }
+        a.badge {
+          color: var(--global-card-bg-color) !important;
+          background-color: var(--global-theme-color) !important;
         }
       }
       .hidden {
@@ -650,4 +697,16 @@ html.transition *:after {
       padding: 8px;
     }
   }
+
+  .paper-disclaimer {
+    font-size: 0.7em;
+    color: $grey-color-light;
+    margin-top: 40px;
+  }  
+
+  nobr > em {
+    font-weight: bold;
+    font-style: normal;
+    color: $theme-color;
+}
 }
