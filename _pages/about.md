@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D Student • <a href='https://www2.dipbioter.unimol.it/'>University of Molise</a> • Italy
+subtitle: Ph.D Student • <a href='https://dibt.unimol.it/labs/stake/'>STAKE Lab</a> • <a href='https://www2.dipbioter.unimol.it/'>University of Molise</a> • Italy
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   address:
 
 news: true  # includes a list of news items

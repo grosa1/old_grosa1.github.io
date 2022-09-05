@@ -137,13 +137,13 @@
           <!-- Links/Buttons -->
           <div class="links">
           {%- if entry.abstract %}
-            [<a href="#" class="abstract" role="button">abstract</a>]
+            [<a class="abstract link-btn" role="button">abs</a>]
           {%- endif %}
           {%- if entry.arxiv %}
             [<a href="http://arxiv.org/abs/{{ entry.arxiv }}" role="button">arxiv</a>]
           {%- endif %}
           {%- if entry.bibtex_show %}
-            [<a href="#" class="bibtex" role="button">bib</a>]
+            [<a class="bibtex link-btn" role="button">bib</a>]
           {%- endif %}
           {%- if entry.pdf %}
             {% if entry.pdf contains '://' -%}
@@ -182,7 +182,7 @@
             {%- endif %}
           {%- endif %}
           {%- if entry.website %}
-            [<a href="{{ entry.website }}" role="button">website</a>]
+            [<a href="{{ entry.website }}" role="button">web</a>]
           {%- endif %}
           </div>
 

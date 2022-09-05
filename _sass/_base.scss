@@ -565,6 +565,7 @@ footer.sticky-bottom {
       .award {
         color: $orange-color !important;
         font-weight: bolder;
+        font-size: 0.85rem;
       }
       .title {
         font-weight: bolder;
@@ -609,6 +610,12 @@ footer.sticky-bottom {
         a.badge {
           color: var(--global-card-bg-color) !important;
           background-color: var(--global-distill-app-color) !important;
+        }
+        a.link-btn {
+          color: var(--global-theme-color);
+          &:hover {
+            text-decoration: underline var(--global-theme-color) 1px;
+          }
         }
       }
       .hidden {
