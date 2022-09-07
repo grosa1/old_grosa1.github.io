@@ -151,6 +151,7 @@
             {%- else -%}
             [<a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" role="button">pdf</a>]
             {%- endif %}
+          {%- endif %}
           {%- if entry.supp %}
             {% if entry.supp contains '://' -%}
             [<a href="{{ entry.supp }}" role="button">supp</a>]
