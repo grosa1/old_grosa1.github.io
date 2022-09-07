@@ -151,9 +151,6 @@
             {%- else -%}
             [<a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" role="button">pdf</a>]
             {%- endif %}
-          {%- elsif entry.eprinttype == "arXiv" and entry.eprint -%}
-            [<a href="http://arxiv.org/pdf/{{ entry.eprint }}" role="button">pdf</a>]
-          {%- endif %}
           {%- if entry.supp %}
             {% if entry.supp contains '://' -%}
             [<a href="{{ entry.supp }}" role="button">supp</a>]
