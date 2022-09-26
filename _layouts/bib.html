@@ -28,11 +28,7 @@
           {{reference}}
         {%- else %}
           <!-- Title -->
-          {% if entry.doi -%}
-            <div class="title"><a href="https://doi.org/{{ entry.doi }}">{{entry.title}}</a></div>
-          {%- else %}
             <div class="title">{{entry.title}}</div>
-          {% endif %}
           <!-- Author -->
           <div class="author">
           {% assign author_array_size = entry.author_array | size %}
@@ -136,6 +132,9 @@
         
           <!-- Links/Buttons -->
           <div class="links">
+          {% if entry.doi -%}
+            [<a href="https://doi.org/{{ entry.doi }}" role="button">doi</a>]
+          {%- endif %}
           {%- if entry.abstract %}
             [<a class="abstract link-btn" role="button">abs</a>]
           {%- endif %}
