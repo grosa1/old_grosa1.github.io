@@ -148,14 +148,14 @@
             {% if entry.pdf contains '://' -%}
             [<a href="{{ entry.pdf }}" role="button">pdf</a>]
             {%- else -%}
-            [<a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" role="button">pdf</a>]
+            [<a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" role="button" target="_blank">pdf</a>]
             {%- endif %}
           {%- endif %}
           {%- if entry.supp %}
             {% if entry.supp contains '://' -%}
             [<a href="{{ entry.supp }}" role="button">supp</a>]
             {%- else -%}
-            [<a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" role="button">supp</a>]
+            [<a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" role="button" target="_blank">supp</a>]
             {%- endif %}
           {%- endif %}
           {%- if entry.talk %}
@@ -168,14 +168,14 @@
             {% if entry.poster contains '://' -%}
             [<a href="{{ entry.poster }}" role="button">poster</a>]
             {%- else -%}
-            [<a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" role="button">poster</a>]
+            [<a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" role="button" target="_blank">poster</a>]
             {%- endif %}
           {%- endif %}
           {%- if entry.slides %}
             {% if entry.slides contains '://' -%}
             [<a href="{{ entry.slides }}" role="button">slides</a>]
             {%- else -%}
-            [<a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" role="button">slides</a>]
+            [<a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" role="button" target="_blank">slides</a>]
             {%- endif %}
           {%- endif %}
           {%- if entry.website %}
