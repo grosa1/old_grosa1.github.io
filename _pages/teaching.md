@@ -8,12 +8,12 @@ nav_order: 5
 ---
 * _Course:_ **Hands-On Machine Learning**, Computer Science program, University of Molise, Italy \
   _Topic:_ Introduction to Python and applied Machine Learning (e.g., defect prediction, text classification, image classification). Course materials can be found <a href="https://github.com/grosa1/hands-on-ml-tutorials" target="_blank">here</a>. \
-  _Role:_ Teaching assistant (2019 - 2023)
+  _Role:_ Teaching assistant (2020, 2021, 2022, 2023)
 
 
 * _Course:_ **Automated Software Delivery**, Computer Science program, University of Molise, Italy \
   _Topic:_ CI pipelines and Docker \
-  _Role:_ Teaching assistant (2020 - 2021)
+  _Role:_ Teaching assistant (2020, 2021)
 
 
 * _Course:_ **Algorithms and data structures: Supplementary exercises**, Computer Science program, University of Molise, Italy \
@@ -33,7 +33,7 @@ nav_order: 5
 
 * _Course:_ **C programming: Supplementary exercises**, Computer Science program, University of Molise, Italy \
   _Topic:_ C programming exercises \
-  _Role:_ Lecturer (2021 - 2022)
+  _Role:_ Lecturer (2021, 2022)
 
 <!-- <div class="card mt-3">
   <div class="p-3">
