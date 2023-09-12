@@ -15,6 +15,8 @@ nav_order: 5
 
 * Journal of Systems and Software (JSS)
 * Science of Computer Programming (SCICO)
+* IEEE Transactions on Software Engineering (TSE)
+* Empirical Software Engineering (EMSE)
 
 ## Teaching
 
