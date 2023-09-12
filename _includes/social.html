@@ -19,6 +19,9 @@
             {%- if site.slideshare_username -%}
             <a href="https://www.slideshare.net/{{ site.slideshare_username }}" title="Slideshare"><i class="fab fa-slideshare"></i></i></a>
             {% endif %}
+            {%- if site.speakerdeck_username -%}
+            <a href="https://speakerdeck.com/{{ site.speakerdeck_username }}" title="SpeakerDeck"><i class="fab fa-speaker-deck"></i></i></a>
+            {% endif %}
             {%- if site.github_username -%}
             <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fab fa-github"></i></a>
             {% endif %}
