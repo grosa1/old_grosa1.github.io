@@ -17,6 +17,7 @@ nav_order: 5
 * Science of Computer Programming (SCICO)
 * IEEE Transactions on Software Engineering (TSE)
 * Empirical Software Engineering (EMSE)
+* SoftwareX Journal
 
 ## Teaching
 
