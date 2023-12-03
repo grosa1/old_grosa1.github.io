@@ -9,8 +9,9 @@ nav_order: 5
 
 ## Commitee member
 
-* Shadow PC member, MSR 2023
 * PC Member, SANER 2024
+* PC Member, ICSSP 2023 (Special Issues)
+* Shadow PC member, MSR 2023
 
 ## Reviewer
 
