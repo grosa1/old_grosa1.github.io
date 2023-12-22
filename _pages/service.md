@@ -15,11 +15,12 @@ nav_order: 5
 
 ## Reviewer
 
-* Journal of Systems and Software (JSS)
-* Science of Computer Programming (SCICO)
 * IEEE Transactions on Software Engineering (TSE)
+* ACM Transactions on Software Engineering and Methodology (TOSEM)
 * Empirical Software Engineering (EMSE)
+* Journal of Systems and Software (JSS)
 * SoftwareX Journal
+* Science of Computer Programming (SCICO)
 
 ## Teaching
 
