@@ -10,7 +10,6 @@ nav_order: 5
 ## Commitee member
 
 * PC Member, SANER 2024
-* PC Member, ICSSP 2023 (Special Issues)
 * Shadow PC member, MSR 2023
 
 ## Reviewer
@@ -19,8 +18,10 @@ nav_order: 5
 * ACM Transactions on Software Engineering and Methodology (TOSEM)
 * Empirical Software Engineering (EMSE)
 * Journal of Systems and Software (JSS)
-* SoftwareX Journal
+* Journal of Software: Evolution and Process (JSEP)
+* Springer Software Quality Journal
 * Science of Computer Programming (SCICO)
+* SoftwareX Journal
 
 ## Teaching
 
