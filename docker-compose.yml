@@ -7,6 +7,6 @@ services:
       dockerfile: Dockerfile
     command: [ "serve", "--watch", "--port=8080", "--host=0.0.0.0" ]
     volumes:
-      - $PWD:/srv/jekyll/
+      - .:/srv/jekyll/
     ports:
       - "8080:8080"
