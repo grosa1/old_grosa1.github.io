@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D Student • <a href='https://dibt.unimol.it/labs/stake/'>STAKE Lab</a> • <a href='https://www2.dipbioter.unimol.it/'>University of Molise</a> • Italy
+subtitle: AI Engineer @ Technology Reply • PhD in Software Engineer, <a href='https://www3.dipbioter.unimol.it/'>UNIMOL</a> • Italy
 
 profile:
   align: right
@@ -15,6 +15,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-**Short Bio.** Giovanni Rosa received his bachelor’s degree in Computer Science from the University of Molise, defending a thesis entitled “Are Developers Good in Code Review?” advised by Prof. Rocco Oliveto and co-advised by Prof. Jens Krinke, from the University College of London. Afterward, he received his master’s degree in Software Systems Security also from the University of Molise defending a thesis entitled “Evaluating SZZ Implementations Through a Developer-informed Oracle” advised by Prof. Rocco Oliveto and co-advised by Prof. Gabriele Bavota, from the Università della Svizzera Italiana, and Dr. Simone Scalabrino, from the University of Molise. During his master’s degree, he also obtained a scholarship to work on a research project about machine learning techniques for the automatic analysis of biomedical data.
+**Short Bio.** Giovanni Rosa received his bachelor’s degree in Computer Science from the University of Molise, defending a thesis entitled “Are Developers Good in Code Review?” advised by Prof. Rocco Oliveto and co-advised by Prof. Jens Krinke, from the University College of London. Afterward, he received his master’s degree in Software Systems Security also from the University of Molise defending a thesis entitled “Evaluating SZZ Implementations Through a Developer-informed Oracle” advised by Prof. Rocco Oliveto and co-advised by Prof. Gabriele Bavota, from the Università della Svizzera Italiana, and Dr. Simone Scalabrino, from the University of Molise. During his master’s degree, he obtained a scholarship to serve as ML Research Engineer for the <a href='https://atticus.regione.molise.it/'>ATTICUS</a> research project (founded by the EU).
+In 2024, he successfully defended his PhD dissertation entitled "Assessing and Improving the Quality of Docker Artifacts".
+During his PhD, he authored more than 20 research papers, and actively contributed to the research community serving as a reviewer, and presenting his research to several international conferences.
+He also served as a teaching assistant for the machine learning and programming courses, and he co-supervised more than 15 students during their final thesis work.
 
-**Research Interests.** Continuous Integration and Deployment, Software Quality, Software Maintenance, Empirical Software Engineering
+**Topics of Interest.** Machine Learning, GenAI, NLP, DevOps, Software Quality, Software Maintenance, Empirical Software Engineering
