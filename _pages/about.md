@@ -21,5 +21,3 @@ During his PhD, he authored over 20 research papers, contributed to the research
 He also served as a teaching assistant for the machine learning and programming courses, and he co-supervised more than 15 students during their final thesis work.
 
 **Topics of Interest.** Machine Learning, GenAI, NLP, DevOps, Software Quality, Software Maintenance, Empirical Software Engineering
-
-

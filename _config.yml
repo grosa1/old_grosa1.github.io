@@ -69,7 +69,7 @@ orcid_id: "0000-0002-5241-1608"
 github_username: "grosa1"
 twitter_username: "giovannipink"
 slideshare_username: "GiovanniRosa14"
-cv_pdf: curriculum.pdf
+cv_pdf: https://github.com/grosa1/techResume/releases/latest/download/resume.pdf
 
 # gitlab_username: # your GitLab user name
 # linkedin_username: #linkedin
