@@ -62,5 +62,7 @@
             <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
             {% endif %}
             {%- if site.cv_pdf -%}
-            <a href="{{ site.baseurl }}/assets/pdf/{{ site.cv_pdf }}" target="_blank" title="CV"><i class="ai ai-cv"></i></a>
+            <a href="{% if site.cv_pdf contains 'http' %}{{ site.cv_pdf }}{% else %}{{ site.baseurl }}/assets/pdf/{{ site.cv_pdf }}{% endif %}" target="_blank" title="CV">
+                <i class="ai ai-cv"></i>
+            </a>
             {% endif %}
