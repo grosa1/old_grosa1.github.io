@@ -64,16 +64,17 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-dblp_url: "https://dblp.org/pid/259/6921.html"
-orcid_id: "0000-0002-5241-1608"
+# dblp_url: "https://dblp.org/pid/259/6921.html"
+# orcid_id: "0000-0002-5241-1608"
 github_username: "grosa1"
 twitter_username: "giovannipink"
 slideshare_username: "GiovanniRosa14"
+linkedin_username: giovanni-rosa-5298b0148
 cv_pdf: https://github.com/grosa1/techResume/releases/latest/download/resume.pdf
 
 # gitlab_username: # your GitLab user name
-# linkedin_username: #linkedin
-# scholar_userid: # your Google Scholar ID
+
+scholar_userid: cRO6BoEAAAAJ
 # medium_username: # your Medium username
 # quora_username: # your Quora username
 # publons_id: # your ID on Publons
