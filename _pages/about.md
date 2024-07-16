@@ -20,6 +20,6 @@ In 2024, he successfully defended his PhD dissertation entitled "Assessing and I
 During his PhD, he authored over 20 research papers, contributed to the research community by serving as a reviewer, and presented his work at several international conferences.
 He also served as a teaching assistant for the machine learning and programming courses, and he co-supervised more than 15 students during their final thesis work.
 
-Currently, he is an AI Engineer in the AI@TECIT team, part of Technology Reply, where he conducts R&D activities applying Machine Learning and GenAI-based approaches in the domains of the Software Development Lifecycle (SDLC) and IT Operations.
+He is currently an AI Engineer in the AI@TECIT team, part of Technology Reply, conducting research and development applying Machine Learning and GenAI-based approaches in the domains of Software Development Lifecycle (SDLC) and IT Operations.
 
 **Topics of Interest.** Machine Learning, GenAI, NLP, DevOps, Software Quality, Software Maintenance, Empirical Software Engineering
