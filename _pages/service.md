@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /service/
-title: service
+permalink: /activities/
+title: activities
 description: Activities in the research community and teaching.
 nav: true
 nav_order: 5
