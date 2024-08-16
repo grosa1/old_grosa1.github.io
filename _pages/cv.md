@@ -1,7 +1,7 @@
 ---
-layout: cv
+# layout: cv
 # permalink: /cv/
-permalink: /404.html
+permalink: /
 title: cv
 nav: false
 nav_order: 4
