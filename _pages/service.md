@@ -7,22 +7,6 @@ nav: true
 nav_order: 5
 ---
 
-## Commitee member
-
-* PC Member, SANER 2024
-* Shadow PC member, MSR 2023
-
-## Reviewer
-
-* IEEE Transactions on Software Engineering (TSE)
-* ACM Transactions on Software Engineering and Methodology (TOSEM)
-* Empirical Software Engineering (EMSE)
-* Journal of Systems and Software (JSS)
-* Journal of Software: Evolution and Process (JSEP)
-* Springer Software Quality Journal
-* Science of Computer Programming (SCICO)
-* SoftwareX Journal
-
 ## Talks
 
 * _"What Quality Aspects Influence the Adoption of Docker Images?"_ at ASE 2023 (Journal First) - September 13, Luxembourg.
@@ -41,6 +25,25 @@ nav_order: 5
 [\[slides\]](https://www.slideshare.net/GiovanniRosa14/evaluating-szz-implementations-through-a-developerinformed-oracle-icse-2021)
 * _"Automatic Real-time Beat-to-beat Detection of Arrhythmia Conditions"_ at HEALTHINF 2021 - February 11, Remote.
 [\[slides\]](https://www.slideshare.net/GiovanniRosa14/automatic-realtime-beattobeat-detection-of-arrhythmia-conditions-healthinf2021-243131628)
+
+
+## Commitee member
+
+* PC Member, SANER 2024
+* Shadow PC member, MSR 2023
+
+
+## Reviewer
+
+* IEEE Transactions on Software Engineering (TSE)
+* ACM Transactions on Software Engineering and Methodology (TOSEM)
+* Empirical Software Engineering (EMSE)
+* Journal of Systems and Software (JSS)
+* Journal of Software: Evolution and Process (JSEP)
+* Springer Software Quality Journal
+* Science of Computer Programming (SCICO)
+* SoftwareX Journal
+
 
 ## Teaching
 
