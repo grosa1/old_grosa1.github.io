@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: AI Engineer • PhD in Software Engineering, <a href='https://www3.dipbioter.unimol.it/'>UNIMOL</a> • Italy
+subtitle: AI Engineer • PhD, <a href='https://www3.dipbioter.unimol.it/'>UNIMOL</a> • Italy
 
 profile:
   align: right
