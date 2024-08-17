@@ -14,7 +14,8 @@ RUN apt-get update \
 # install jekyll and bundler
 RUN export GEM_HOME="$HOME/gems" \
     && export PATH="$HOME/gems/bin:$PATH" \
-    && gem install jekyll bundler
+    && gem install jekyll -v '4.3.3' \
+    && gem install bundler -v '2.5.0'
 
 ENV GEM_HOME="/usr/local/bundle"
 ENV PATH $GEM_HOME/bin:$GEM_HOME/gems/bin:$PATH
