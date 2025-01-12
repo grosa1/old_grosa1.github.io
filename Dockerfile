@@ -26,6 +26,4 @@ COPY Gemfile ./
 
 RUN bundle install
 
-COPY . ./
-
 ENTRYPOINT [ "bundler", "exec", "jekyll" ]

@@ -6,6 +6,8 @@ services:
       context: .
       dockerfile: Dockerfile
     command: [ "serve", "--livereload", "--port=8080", "--host=0.0.0.0" ]
+    volumes:
+      - .:/srv/jekyll/
     ports:
       - "8080:8080"
       - "35729:35729"

@@ -4,7 +4,7 @@ permalink: /activities/
 title: activities
 description: Activities in the research community and teaching.
 nav: true
-nav_order: 5
+nav_order: 4
 ---
 
 ## Talks
