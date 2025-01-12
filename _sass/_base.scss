@@ -283,6 +283,7 @@ progress::-moz-progress-bar {
 
 .social {
   text-align: center;
+  margin-top: 2rem;
   .contact-icons {
     font-size: 4rem;
     a {
@@ -439,7 +440,7 @@ footer.sticky-bottom {
 // news
 
 .news {
-  margin-top: 2rem;
+  margin-top: 1rem;
   .badge{
     min-width: 5.2rem;
     color: var(--global-card-bg-color) !important;
@@ -505,7 +506,7 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
-  margin-top: 2rem;
+  margin-top: 1rem;
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;
