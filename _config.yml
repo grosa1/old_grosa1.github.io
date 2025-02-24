@@ -5,7 +5,7 @@
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Giovanni
 last_name: Rosa
-email: g.rosa1@studenti.unimol.it
+email: grosa23@yahoo.com
 description: ""
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -68,8 +68,8 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # orcid_id: "0000-0002-5241-1608"
 github_username: "grosa1"
 twitter_username: "giovannipink"
-slideshare_username: "GiovanniRosa14"
-linkedin_username: giovanni-rosa-5298b0148
+# slideshare_username: "GiovanniRosa14"
+linkedin_username: giovanni-rosa-phd
 cv_pdf: https://github.com/grosa1/techResume/releases/latest/download/resume.pdf
 
 # gitlab_username: # your GitLab user name

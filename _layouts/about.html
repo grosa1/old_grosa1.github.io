@@ -27,6 +27,21 @@ layout: default
               path=profile_image_path 
               class=profile_image_class
               alt=page.profile.image -%}
+              
+              {%- if page.social %}
+              <!-- Social -->
+              <div class="social">
+                <div class="contact-icons">
+                {% include social.html %}
+                </div>
+    
+                <div class="contact-note">
+                  {{ site.contact_note }}
+                </div>
+                
+              </div>
+              {%- endif %}
+
             {% endif -%}
             {%- if page.profile.address %}
             <div class="address">
@@ -47,19 +62,6 @@ layout: default
           {% if page.selected_papers -%}
             <!-- Selected papers -->
             {%- include selected_papers.html %}
-          {%- endif %}
-          {%- if page.social %}
-          <!-- Social -->
-          <div class="social">
-            <div class="contact-icons">
-            {% include social.html %}
-            </div>
-
-            <div class="contact-note">
-              {{ site.contact_note }}
-            </div>
-            
-          </div>
           {%- endif %}
         </article>
 

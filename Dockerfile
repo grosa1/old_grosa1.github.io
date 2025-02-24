@@ -24,6 +24,7 @@ WORKDIR /srv/jekyll
 
 COPY Gemfile ./
 
-RUN bundle install
+RUN RUN rm -f Gemfile.lock \
+    && bundle install
 
 ENTRYPOINT [ "bundler", "exec", "jekyll" ]
