@@ -714,6 +714,8 @@ html.transition *:after {
     }
   }
   .post-content{
+    text-align: justify;
+    font-size: 1.15rem;
     blockquote {
       border-left: 5px solid var(--global-theme-color);
       padding: 8px;
