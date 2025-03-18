@@ -18,13 +18,14 @@ RUN export GEM_HOME="$HOME/gems" \
     && gem install bundler -v '2.5.0'
 
 ENV GEM_HOME="/usr/local/bundle"
-ENV PATH $GEM_HOME/bin:$GEM_HOME/gems/bin:$PATH
+ENV PATH=$GEM_HOME/bin:$GEM_HOME/gems/bin:$PATH
 
 WORKDIR /srv/jekyll
 
 COPY Gemfile ./
 
-RUN RUN rm -f Gemfile.lock \
-    && bundle install
+RUN bundle install
+
+COPY . ./
 
 ENTRYPOINT [ "bundler", "exec", "jekyll" ]

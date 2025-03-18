@@ -5,9 +5,9 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    command: [ "serve", "--livereload", "--port=8080", "--host=0.0.0.0" ]
-    volumes:
-      - .:/srv/jekyll/  # for live reload
+    command: [ "serve", "--port=8080", "--host=0.0.0.0" ]
+    # volumes:
+    #   - .:/srv/jekyll/  # for live reload
     ports:
       - "8080:8080"
       - "35729:35729"
