@@ -683,11 +683,6 @@ code {
   padding: 3px 3px;
 }
 
-#disqus_thread {
-  margin-top: 6rem;
-}
-
-
 // Transitioning Themes
 html.transition,
 html.transition *,
@@ -730,6 +725,9 @@ html.transition *:after {
     }
     pre {
       margin-block: 1rem !important;
+    }
+    .post-comments {
+      margin-top: 6rem;
     }
   }
 
