@@ -5,19 +5,7 @@ date: 2025-03-19
 description: A guide for beginners to get started with Oracle Cloud Infrastructure (OCI) Generative AI service.
 tags: coding oracle generative-ai oci python
 categories: oracle-generative-ai
-comments: true  # Enable/disable Disqus comments
-toc: true
-
-authors:
-  - name: G. Rosa
-    affiliations:
-
-toc:
-  - name: Introduction
-  - name: Getting started with OCI Generative AI
-  - name: Setting up the environment
-  - name: Running your first AI task
-  - name: Conclusion
+comments: false  # Enable/disable Disqus comments
 ---
 
 <div class="row mt-3">
