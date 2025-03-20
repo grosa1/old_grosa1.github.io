@@ -17,6 +17,7 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
     gem 'observer'
+    gem 'uri', '1.0.3'
 end
 group :other_plugins do
     gem 'httparty'
