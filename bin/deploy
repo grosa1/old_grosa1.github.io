@@ -95,7 +95,7 @@ git checkout -b $DEPLOY_BRANCH
 export JEKYLL_ENV=production
 
 # Build site
-gem install uri -v 1.0.2
+gem install bundler && bundle install
 bundle exec jekyll build
 
 # Delete and move files
