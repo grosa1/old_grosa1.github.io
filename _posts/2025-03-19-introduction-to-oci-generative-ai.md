@@ -174,7 +174,7 @@ print("************************** Chat Result **************************\n")
 print(response_text)
 ```
 
-A possible output of the above code snippet is the following:
+An output of the above code snippet is the following:
 
 ```plaintext
 ************************** Chat Result **************************
@@ -248,7 +248,7 @@ print("************************** Chat Result **************************\n")
 print(response_text)
 ```
 
-A possible output of the above code snippet is the following:
+An output of the above code snippet is the following:
 
 ```plaintext
 ************************** Chat Result **************************
