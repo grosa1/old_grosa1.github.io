@@ -2,6 +2,10 @@
  * Style overrides for distill blog posts.
  ******************************************************************************/
 
+d-title {
+  margin-top: 3rem;
+}
+
 d-byline {
   border-top-color: var(--global-divider-color) !important;
 }
@@ -18,6 +22,8 @@ d-byline a, d-article d-byline a {
 }
 
 d-article {
+  text-align: justify;
+
   border-top-color: var(--global-divider-color) !important;
   a, p, h1, h2, h3, h4, h5, h6, li, table {
     color: var(--global-text-color) !important;
@@ -31,6 +37,9 @@ d-article {
   b i {
     display: inline;
   }
+  pre {
+    margin-block: 1rem !important;
+  }
 
   d-contents {
     align-self: start;
@@ -38,8 +47,8 @@ d-article {
     grid-row: auto / span 4;
     justify-self: end;
     margin-top: 0em;
-    padding-left: 2em;
-    padding-right: 3em;
+    padding-left: 3em;
+    padding-right: 2em;
     border-right: 1px solid var(--global-divider-color);
     width: calc(max(70%, 300px));
     margin-right: 0px;
