@@ -95,6 +95,7 @@ git checkout -b $DEPLOY_BRANCH
 export JEKYLL_ENV=production
 
 # Build site
+apt install -y imagemagick
 bundle exec jekyll build
 
 # Delete and move files
