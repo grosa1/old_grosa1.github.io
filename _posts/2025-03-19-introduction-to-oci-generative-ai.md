@@ -66,16 +66,16 @@ Before running your first AI task, you need to set up the environment by install
 
 Next, you must set up a virtual environment to manage the dependencies of your project. You can use `venv` or `conda` to create a virtual environment. Here's how to create a virtual environment using `conda`:
 
-1. Install `miniconda` by following the instructions [here](https://www.anaconda.com/docs/getting-started/miniconda/install#quickstart-install-instructions).
+1\. Install `miniconda` by following the instructions [here](https://www.anaconda.com/docs/getting-started/miniconda/install#quickstart-install-instructions).
     
-2. Create and activate a new conda environment:
+2\. Create and activate a new conda environment:
     
 ```bash
 conda create --name oci-genai python=3.11
 conda activate oci-genai
 ```
     
-3. Install the [`oci-python-sdk`](https://github.com/oracle/oci-python-sdk) library using `pip` :
+3\. Install the [`oci-python-sdk`](https://github.com/oracle/oci-python-sdk) library using `pip` :
     
 ```bash
 pip install oci
