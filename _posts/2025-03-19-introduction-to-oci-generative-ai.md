@@ -10,7 +10,7 @@ comments: false  # Enable/disable Disqus comments
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/cover1.jpeg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="/assets/img/cover1.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -18,13 +18,13 @@ comments: false  # Enable/disable Disqus comments
 
 This article aims to provide a comprehensive guide for beginners to get started with Oracle Cloud Infrastructure (OCI) Generative AI service. We'll cover everything from creating an account to setting up the environment and running your first AI tasks, starting with a brief overview of the main features.
 
-The Oracle Cloud Infrastructure is one of the big cloud platforms currently available in the market together with AWS, Google Cloud, and Azure. Among the others, OCI offers several AI services, from the GPU infrastructure to AI-based services such as a powerful platform for creating and deploying GenAI-powered apps. OCI Generati AI includes a set of customizable state-of-the-art Large Language Models (LLMs) for several tasks, such as text generation, summarization, and text embeddings. They can be customized via Fine-Tuning on custom datasets and deployed in a dedicated AI cluster. The currently available models include Llama models from Meta and Command R and R+ from Cohere, which can be used via the OCI SDK (for Python, Java, and Node.js), OCI CLI, Chat Playground, and also from several open-source frameworks such as LangChain and LlamaIndex.
+The Oracle Cloud Infrastructure is one of the big cloud platforms currently available in the market together with AWS, Google Cloud, and Azure. Among the others, OCI offers several AI services, from the GPU infrastructure to AI-based services such as a powerful platform for creating and deploying GenAI-powered apps. OCI Generative AI provides a collection of state-of-the-art Large Language Models (LLMs) specialized for various tasks, including text generation, summarization, and text embeddings. These models can be fine-tuned with custom datasets and deployed on a dedicated AI cluster. Currently, available models include the Meta Llama series and Cohere's Command R and R+, accessible through the OCI SDK (supporting Python, Java, and Node.js), OCI CLI, and the Chat Playground. Additionally, the OCI SDK is integrated with popular open-source frameworks like LangChain and LlamaIndex.
 
 Content moderation and controls applied to user-created endpoints for custom or pre-trained models with the autonomy to update, move, or delete them as needed.
 
 ## Getting started with OCI Generative AI
 
-How to get started with OCI Generative AI services? Before getting hands-on with the code, there are several preliminary steps to achieve.
+How to get started with OCI Generative AI services? Before getting hands-on with the code, there are several preliminary steps to follow.
 
 1\. **Creating an Account**: visit the [Oracle Cloud website](https://www.oracle.com/it/cloud/sign-in.html) and sign up for an account. You'll need to provide some basic information and verify your email address. Once your account is created, you can access the OCI Console. A free trial is available for new users, which includes some credits to experiment with the services.
     
@@ -151,7 +151,7 @@ chat_request = GenericChatRequest(
     seed=SEED,  # Forces the model to generate a deterministic response, but not fully guaranteed
     api_format="GENERIC",
     messages=messages,
-    max_tokens=1000,  # Limit response lenght
+    max_tokens=1000,  # Limit response length
     temperature=0.7  # Controls the creativity of the model. Lower values mean less creative
 )
 
@@ -225,7 +225,7 @@ chat_request = CohereChatRequest(
     seed=SEED,  # Forces the model to generate a deterministic response, but not fully guaranteed
     chat_history=chat_history,
     message=user_message,
-    max_tokens=1000,  # Limit response lenght
+    max_tokens=1000,  # Limit response length
     temperature=0.7  # Controls the creativity of the model. Lower values mean less creative
 )
 
