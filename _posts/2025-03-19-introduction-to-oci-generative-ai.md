@@ -16,19 +16,18 @@ comments: false  # Enable/disable Disqus comments
 
 ## Introduction
 
-This article aims to provide a comprehensive guide for beginners to get started with Oracle Cloud Infrastructure (OCI) Generative AI service. We'll cover everything from creating an account to setting up the environment and running your first AI tasks, starting with a brief overview of the main features.
+This article aims to provide a comprehensive guide for beginners to get started with Oracle Cloud Infrastructure (OCI) Generative AI service. This article covers everything from creating an account to setting up the environment and running the first AI task using Python, starting with a brief overview of the main features.
 
-The Oracle Cloud Infrastructure is one of the big cloud platforms currently available in the market together with AWS, Google Cloud, and Azure. Among the others, OCI offers several AI services, from the GPU infrastructure to AI-based services such as a powerful platform for creating and deploying GenAI-powered apps. OCI Generative AI provides a collection of state-of-the-art Large Language Models (LLMs) specialized for various tasks, including text generation, summarization, and text embeddings. These models can be fine-tuned with custom datasets and deployed on a dedicated AI cluster. Currently, available models include the Meta Llama series and Cohere's Command R and R+, accessible through the OCI SDK (supporting Python, Java, and Node.js), OCI CLI, and the Chat Playground. Additionally, the OCI SDK is integrated with popular open-source frameworks like LangChain and LlamaIndex.
+The Oracle Cloud Infrastructure is one of the big cloud platforms currently available in the market together with AWS, Google Cloud, and Azure. Among the others, OCI offers several AI services, from the GPU infrastructure to AI-based services such as a powerful platform for creating and deploying GenAI-powered apps. OCI Generative AI provides a collection of state-of-the-art Large Language Models (LLMs) specialized for various tasks, including text generation, summarization, and text embeddings. These models can be fine-tuned with custom datasets and deployed on a dedicated AI cluster. Also, content moderation and controls are available to model endpoints. Currently, available models include the Meta Llama series and Cohere's Command R and R+, accessible through the OCI SDK (supporting Python, Java, and Node.js), OCI CLI, and the Chat Playground. Additionally, the OCI SDK is integrated with popular open-source frameworks like LangChain and LlamaIndex.
 
-Content moderation and controls applied to user-created endpoints for custom or pre-trained models with the autonomy to update, move, or delete them as needed.
 
 ## Getting started with OCI Generative AI
 
-How to get started with OCI Generative AI services? Before getting hands-on with the code, there are several preliminary steps to follow.
+Before getting hands-on with the code, there are several preliminary steps to follow to set up the required resources on OCI.
 
 1\. **Creating an Account**: visit the [Oracle Cloud website](https://www.oracle.com/it/cloud/sign-in.html) and sign up for an account. You'll need to provide some basic information and verify your email address. Once your account is created, you can access the OCI Console. A free trial is available for new users, which includes some credits to experiment with the services.
     
-2\. **Navigating the OCI Console**: The OCI Console is your main interface for managing cloud resources. Familiarize yourself with the dashboard, where you can access various services, monitor usage, and configure settings. Specifically, the playground allows us to experiment with the models hosted on OCI easily. To access the playground, navigate to "*Generative AI &gt; Playground &gt; Chat*" and select the model you want to use. An example of the [OCI Generative AI Playground](https://www.oracle.com/cloud/) is shown below (Figure 1).
+2\. **Navigating the OCI Console**: The OCI Console is your main interface for managing cloud resources. Familiarize yourself with the dashboard, where you can access various services, monitor usage, and configure settings. Specifically, the playground allows us to experiment with the models hosted on OCI easily. To access the playground, navigate to *Generative AI > Playground > Chat* and select the model you want to use. An example of the [OCI Generative AI Playground](https://www.oracle.com/cloud/) is shown below (Figure 1).
 
 <div class="row mt-4 mb-2">
     <div class="col-sm mt-3 mb-2 mt-md-4">
@@ -41,9 +40,9 @@ How to get started with OCI Generative AI services? Before getting hands-on with
 </div>
 
 3\. **Generating an API key**: After creating your account, you'll need to create an API key that is mandatory for authentication with the OCI Generative AI service. To create an API key:
-  - Go to your profile settings, find *"Resources" > API keys"* and click on the *"Add Public Key"* button.
-  - Then, check on *"Generate API key pair"* and download the private and public key files (*e.g.,* default `~/.oci` directory).
-  - When finished, click on the *"Add"* button.
+  - Go to your profile settings, find *Resources > API keys* and click on the *Add Public Key* button.
+  - Then, check on *Generate API key pair* and download the private and public key files (*e.g.,* default `~/.oci` directory).
+  - When finished, click on the *Add* button.
         
 The last step is to create a configuration file that contains the necessary information to authenticate with the OCI services. An example of the configuration file is prompted after the API key creation. As suggested, store the configuration file in the default location `~/.oci/config`. Be sure to set the correct path of the previously downloaded private key in the configuration file.
     
@@ -58,7 +57,7 @@ region=eu-frankfurt-1  # Frankfurt EU region
 key_file=/home/sammy/.oci/my-private-key.pem  # TODO: Full path to the private key
 ```
     
-4\. **Create a Compartment**: Compartments are logical containers that help you organize and control access to your cloud resources. You can create a new compartment from the OCI Console by navigating to *"Identity > Compartments"* and clicking on *"Create Compartment"*.
+4\. **Create a Compartment**: Compartments are logical containers that help you organize and control access to your cloud resources. You can create a new compartment from the OCI Console by navigating to *Identity > Compartments* and clicking on *Create Compartment*.
     
 ## Setting up the environment
 
@@ -81,11 +80,11 @@ conda activate oci-genai
 pip install oci
 ```
 
-## Running your first AI task
+## Running the first AI task
 
-Now that the setup is complete, we can run our first task using the OCI Generative AI service. In the following examples, we will demonstrate how to use the `oci-python-sdk` to interact with the service.
+Now that the setup is complete, we can run our first task using the OCI Generative AI service. In the following examples, we use the `oci-python-sdk` library to interact with the model inference endpoints.
 
-An interesting feature of OCI Generative AI that we will cover is the `seed` parameter, recently introduced in the API, which forces the model backed to generate deterministic responses from the model for the same input. However, it is not fully guaranteed but can be useful for debugging and testing purposes.
+An interesting feature of OCI Generative AI that we will cover is the `seed` parameter, recently introduced in the API, which forces the model backend to generate deterministic responses from the model for the same input. However, it is not fully guaranteed but can be useful for debugging and testing purposes.
 
 Create a new Python script called `main.py` and use the snippets below to run your first AI task. To execute, run `python main.py` in your terminal after activating the virtual environment.
 
