@@ -61,7 +61,7 @@ key_file=/home/sammy/.oci/my-private-key.pem  # TODO: Full path to the private k
     
 ## Setting up the environment
 
-Before running your first AI task, you need to set up the environment by installing the necessary libraries and dependencies. The requirement is to have [Python](https://www.python.org/downloads/) installed on your machine.
+Before running your first AI task, you need to set up the environment by installing the necessary libraries and dependencies. The requirement is to have [Python](https://www.python.org/downloads/) installed on your machine, since in this article we use Python to interact with the OCI Generative AI service.
 
 Next, you must set up a virtual environment to manage the dependencies of your project. You can use `venv` or `conda` to create a virtual environment. Here's how to create a virtual environment using `conda`:
 
