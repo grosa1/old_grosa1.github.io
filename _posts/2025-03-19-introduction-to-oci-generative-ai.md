@@ -32,7 +32,7 @@ Before getting hands-on with the code, there are several preliminary steps to fo
 <div class="row mt-4 mb-2">
     <div class="col-sm mt-3 mb-2 mt-md-4">
         {% include figure.html 
-            path="/assets/img/oci-genai-playground.png" 
+            path="/assets/img/oci-genai-playground.jpg" 
             class="img-fluid rounded z-depth-1" zoomable=true
             caption='Figure 1. OCI Generative AI Playground. Source: <a href="https://www.oracle.com/cloud/" target="_blank" rel="noopener noreferrer">Oracle Cloud Infrastructure</a>' 
         %}
