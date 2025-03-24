@@ -269,3 +269,6 @@ E ora, vi lascio con una canzone che celebra le gesta di Corvo, il cavaliere cor
 ## Conclusion
 
 This article provided an overview of OCI Generative AI, including a step-by-step guide to getting started with the service, setting up an environment, and running your first AI task using the OCI Python SDK using the models from Llama and Cohere hosted on OCI. For more information, refer to the [OCI Generative AI documentation](https://docs.oracle.com/en-us/iaas/Content/generative-ai/overview.htm).
+
+
+_*Please note all screenshots are the property of Oracle and are used according to their Copyright Guidelines._
