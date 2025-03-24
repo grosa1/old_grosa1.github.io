@@ -44,7 +44,7 @@ nav_order: 5
       <td>Introduction to Generative AI</td>
       <td>Galdus formazione, seminar</td>
       <td>Milan, Italy</td>
-      <td><a href="/assets/pdf/gladus_itoug2024.pdf" target="_blank">slides</a></td>
+      <td></td>
     </tr>
     <tr>
       <td>Sep 21, 2024</td>
