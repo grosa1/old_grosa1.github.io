@@ -3,6 +3,11 @@
 
   <!-- Head -->
   <head>
+  {%- if page.redirect_to -%}
+    <script type="text/javascript">
+      window.location.href = "{{ page.redirect_to }}";
+    </script>
+  {%- endif -%}
   {%- if page.redirect -%}
     <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />
   {%- endif -%}
@@ -22,6 +27,7 @@
       </div>
     </progress>
 
+    <div class="wrapper">
     <!-- Content -->
     <div class="container mt-5">
       {{ content }}
@@ -29,6 +35,7 @@
 
     <!-- Footer -->
     {%- include footer.html %}
+  </div>
 
     <!-- JavaScripts -->
     {% include scripts/jquery.html %}

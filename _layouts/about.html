@@ -63,6 +63,19 @@ layout: default
             <!-- Selected papers -->
             {%- include selected_papers.html %}
           {%- endif %}
+          {%- if page.social_bottom %}
+          <!-- Social -->
+          <div class="social-bottom">
+            <div class="contact-icons">
+            {% include social.html %}
+            </div>
+
+            <div class="contact-note">
+              {{ site.contact_note }}
+            </div>
+            
+          </div>
+          {%- endif %}
         </article>
 
 </div>

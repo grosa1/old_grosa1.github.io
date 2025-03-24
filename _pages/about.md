@@ -12,7 +12,9 @@ profile:
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true  # includes social icons under the profile image
+social_bottom: false  # includes social icons at the bottom of the page
+footer_fixed: false  # keeps the footer at the bottom of the page
 ---
 
 **Short Bio.** Giovanni Rosa is an AI Engineer at <a href='https://www.reply.com/technology-reply/it/'>Technology Reply</a>, conducting research and development activities involving Machine Learning and GenAI-based solutions applied in the domains of Software Development Lifecycle (SDLC) and IT Operations.
