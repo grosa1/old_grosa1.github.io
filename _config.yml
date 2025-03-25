@@ -65,7 +65,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 
 # dblp_url: "https://dblp.org/pid/259/6921.html"
-# orcid_id: "0000-0002-5241-1608"
+orcid_id: "0000-0002-5241-1608"
 github_username: "grosa1"
 twitter_username: "giovannipink"
 # slideshare_username: "GiovanniRosa14"
