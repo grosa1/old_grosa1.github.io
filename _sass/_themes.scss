@@ -2,14 +2,6 @@
  * Themes
  ******************************************************************************/
 
-.fa.fa-twitter {
-    font-family: sans-serif;
-}
-.fa.fa-twitter::before {
-    content: "𝕏";
-    font-size: 1.2em;
-}
-
 :root {
   --global-bg-color: #{$white-color};
   --global-code-bg-color: #{$code-bg-color-light};
