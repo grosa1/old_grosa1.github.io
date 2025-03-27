@@ -10,10 +10,10 @@ profile:
   image_circular: true # crops the image to make it circular
   address:
 
-news: false  # includes a list of news items
+news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons under the profile image
-social_bottom: true  # includes social icons at the bottom of the page
+social: true  # includes social icons under the profile image
+social_bottom: false  # includes social icons at the bottom of the page
 footer_fixed: false  # keeps the footer at the bottom of the page
 ---
 
