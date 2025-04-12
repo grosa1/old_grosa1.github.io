@@ -17,7 +17,7 @@ social_bottom: false  # includes social icons at the bottom of the page
 footer_fixed: false  # keeps the footer at the bottom of the page
 ---
 
-**Short Bio.** Giovanni Rosa is an AI Engineer at <a href='https://www.reply.com/technology-reply/it/'>Technology Reply</a>, conducting research and development activities involving Machine Learning and GenAI-based solutions applied in the domains of Software Development Lifecycle (SDLC) and IT Operations.
+**Short Bio.** Giovanni Rosa is an AI Engineer with experience in research and development activities involving Machine Learning and GenAI-based solutions in the domains of Software Development Lifecycle (SDLC), IT Operations, and Knowledge-Augmented AI Systems.
 
 In 2024, Giovanni successfully defended his PhD dissertation focused on the assessment and improvement of the quality aspects of Dockerfiles and Docker images, leveraging machine learning and NLP techniques.
 During his PhD, he authored over 20 research papers and spoke at several international scientific conferences.
