@@ -38,7 +38,7 @@ repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-s
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: false
+rss_icon: true
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -70,8 +70,8 @@ github_username: "grosa1"
 twitter_username: "giovannipink"
 # slideshare_username: "GiovanniRosa14"
 linkedin_username: giovanni-rosa-phd
-medium_username: giovannirosa
-hashnode_subdomain: grosa
+# medium_username: giovannirosa
+# hashnode_subdomain: grosa
 cv_pdf: https://github.com/grosa1/techResume/releases/latest/download/resume.pdf
 
 # gitlab_username: # your GitLab user name
@@ -85,6 +85,7 @@ scholar_userid: cRO6BoEAAAAJ
 # keybase_username: # your keybase user name
 # wikidata_id: # your wikidata id
 # stackoverflow_id: #your stackoverflow id
+https://hackernoon.com/u/giovannirosa
 
 contact_note: 
 # -----------------------------------------------------------------------------
@@ -306,7 +307,7 @@ enable_medium_zoom:         true   # enables image zoom feature (as on medium.co
 # -----------------------------------------------------------------------------
 
 academicons:
-  version: "1.9.1"
+  version: "1.9.4"
   integrity: "sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg="
 bootstrap:
   version: "4.6.1"
