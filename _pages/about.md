@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoctoral Researcher • AI Engineer • Italy
+subtitle: Postdoctoral Researcher • Phd • Italy
 
 profile:
   align: right
