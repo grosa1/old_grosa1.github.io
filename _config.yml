@@ -5,7 +5,7 @@
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Giovanni
 last_name: Rosa
-email: grosa23@yahoo.com
+email: giovanni.rosa@urjc.es
 description: ""
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -68,10 +68,10 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 orcid_id: "0000-0002-5241-1608"
 github_username: "grosa1"
 twitter_username: "giovannipink"
-# slideshare_username: "GiovanniRosa14"
+slideshare_username: "GiovanniRosa14"
 linkedin_username: giovanni-rosa-phd
-# medium_username: giovannirosa
-# hashnode_subdomain: grosa
+medium_username: giovannirosa
+#hashnode_subdomain: grosa
 cv_pdf: https://github.com/grosa1/techResume/releases/latest/download/resume.pdf
 
 # gitlab_username: # your GitLab user name
@@ -306,7 +306,7 @@ enable_medium_zoom:         true   # enables image zoom feature (as on medium.co
 # -----------------------------------------------------------------------------
 
 academicons:
-  version: "1.9.4"
+  version: "1.9.1"
   integrity: "sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg="
 bootstrap:
   version: "4.6.1"
