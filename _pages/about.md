@@ -17,7 +17,8 @@ social_bottom: false  # includes social icons at the bottom of the page
 footer_fixed: false  # keeps the footer at the bottom of the page
 ---
 
-**Short Bio.** Giovanni Rosa is a Postdoctoral Researcher at [URJC](https://www.urjc.es/) specializing in Generative AI for Software Engineering and Code Generation. Previously, he worked as an R&D AI Engineer for Machine Learning and Generative AI-based solutions. His work focused on business-critical use cases across the Software Development Lifecycle (SDLC), IT Operations, and Knowledge-Augmented AI Systems.
+**Short Bio.** Giovanni Rosa is a Postdoctoral Researcher at [URJC](https://www.urjc.es/) specializing in Generative AI for Code Generation and Software Engineering. 
+Previously, he worked as an R&D AI Engineer for Machine Learning and Generative AI-based solutions. His work focused on the design and development of business-critical use cases across the Software Development Lifecycle (SDLC), IT Operations, and Knowledge-Augmented AI Systems.
 
 In 2024, Giovanni successfully defended his PhD dissertation, which focused on the assessment and improvement of the quality aspects of Dockerfiles and Docker images, leveraging machine learning and NLP techniques.
 During his PhD, he authored over 20 research papers and spoke at several international scientific conferences.
