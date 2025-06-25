@@ -21,5 +21,4 @@ footer_fixed: false  # keeps the footer at the bottom of the page
 Previously, he worked as an R&D AI Engineer for Machine Learning and Generative AI-based solutions. His work focused on the design and development of business-critical use cases across the Software Development Lifecycle (SDLC), IT Operations, and Knowledge-Augmented AI Systems.
 
 In 2024, Giovanni successfully defended his PhD dissertation, which focused on the assessment and improvement of the quality aspects of Dockerfiles and Docker images, leveraging machine learning and NLP techniques.
-During his PhD, he authored over 20 research papers and spoke at several international scientific conferences.
-He also served as a teaching assistant and lecturer, co-supervising more than 15 students during their theses.
+During his PhD, he authored over 20 research papers and presented his work at numerous international scientific conferences. Additionally, he served as a teaching assistant and co-supervised more than 15 students on their final theses.
